@@ -1,6 +1,131 @@
-.App {
-  text-align: center;
+
+.voting-app {
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    position: relative;
 }
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.voting-app h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tab {
+  width: 50%;
+  text-align: center; 
+}
+
+.form-control {
+    width: 70%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.add-new {
+    width: 22% !important;
+    position: absolute;
+    height: 48px;
+    margin-left: 10px;
+    background-color: lightgray;
+    font-weight: bolder;
+    color: black;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+p {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+span {
+  width: 18%;
+  display: inline flow-root list-item;
+  font-variant-caps: petite-caps;
+}
+.item-name{
+  width: 30% !important;
+  font-weight: bold;
+}
+
+.item-status {
+  padding-right: 20px;
+}
+button.active{
+  color: green;
+background-color: transparent;
+border: none;
+outline: none;
+cursor: pointer
+}
+
+button{
+  color: red;
+background-color: transparent;
+
+cursor: pointer
+}
+
+.item-list {
+    position: relative;
+    display: block;
+    
+ 
+
+  border: 3px solid #D3D3D3;
+padding: 10px;
+margin-top: 2px;
+  }
+
+li.ui-state-default:last-child {
+    border-bottom: none;
+}
+
+li.list-tab {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.sub-tab {
+    border: 1px solid #ddd;
+    background-color: #D3D3D3;
+
+    position: relative;
+    color: #777;
+
+padding: 12px 20px;
+}
+
 
 .App-logo {
   height: 40vmin;
